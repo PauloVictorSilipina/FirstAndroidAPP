@@ -24,8 +24,5 @@ public class NextActivity extends AppCompatActivity {
 
         //Seta o texto para ser exibido
         tvExibir.setText(texto);
-
-        //Inicia a intent rodando a tela
-        startActivity(i);
     }
 }
