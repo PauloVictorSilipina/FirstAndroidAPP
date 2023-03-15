@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stella Artois</string>
+    <string name="et_texto_hint">Введите что-нибудь здесь:</string>
+    <string name="btn_enviar">"Отправлять "</string>
+</resources>
