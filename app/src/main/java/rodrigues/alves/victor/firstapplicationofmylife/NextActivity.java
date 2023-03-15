@@ -13,10 +13,19 @@ public class NextActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_next);
 
+        //Recebe a intent da página anterior
         Intent i = getIntent();
+
+        //Texto
         String texto = i.getStringExtra("texto");
+
+        //Pega o id do campo para exibir o texto
         TextView tvExibir = findViewById(R.id.tvExibir);
+
+        //Seta o texto para ser exibido
         tvExibir.setText(texto);
+
+        //Inicia a intent rodando a tela
         startActivity(i);
     }
 }
